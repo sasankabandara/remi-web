@@ -15,7 +15,7 @@ const accomplishment = () => {
   return (
     <div className="container text-center my-5">
       <header>
-        <h1 className="agency-header" style={{ lineHeight: 0.7 }}>
+        <h1 className="agency-header" style={{ lineHeight: 0.7 , color: "white" } }>
         Accomplishments
           
         </h1>
