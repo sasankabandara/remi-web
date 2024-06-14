@@ -5,6 +5,7 @@ import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Banner from "./Components/banner/banner.js";
 import Circle from "./Components/circle/circle.js";
 import Roadmap from "./Components/roadmap/roadmap.js";
+import Accomplishment from "./Components/accomplishment/accomplishment.js";
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
       <Navbar/>
 
       <Banner/>
+      <Accomplishment/>
       <Roadmap/>
     </div>
   );
