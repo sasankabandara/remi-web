@@ -50,3 +50,29 @@ p {
   z-index: 1; /* Ensure Ellipse.png is under balla.png */
   right: 0%;
 }
+
+
+.detail-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c; /* Assuming the background color from the image */
+  padding: 10px;
+  border-radius: 5px;
+  color: #00aaff; /* Light blue text color */
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.detail-item {
+  flex: 1;
+  text-align: center;
+}
+
+.contract {
+  flex: 2;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
