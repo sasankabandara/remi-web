@@ -5,7 +5,7 @@ import "../navbar/navbar.css"
 
 const NavbarComponent = () => {
   return (
-    <Navbar expand="lg" variant="light" fixed="top" style={{ backgroundColor: 'transparent' }}>
+    <Navbar expand="lg" variant="light" style={{ backgroundColor: 'transparent' }}>
       <Container className="justify-content-between">
         <Navbar.Brand href="#home">
           <Image src="images/logo.png" className="logo" alt="Logo" /></Navbar.Brand>
