@@ -1,9 +1,10 @@
 import React from 'react';
 import '../roadmap/roadmap.css';
+import Container from "react-bootstrap/Container";
 
 const Roadmap = () => {
-    return (
-        <div className="roadmap-container container">
+    return (<Container>
+        <div className="roadmap-container">
             {roadmapItems.map((row, rowIndex) => (
                 <div className="roadmap-row-container" key={rowIndex}>
                     <div className="roadmap-row">
@@ -23,6 +24,7 @@ const Roadmap = () => {
                 </div>
             ))}
         </div>
+        </Container>
     );
 }
 

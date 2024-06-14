@@ -1,19 +1,22 @@
-.logo {
-  max-width: 100px; /* Adjust logo size */
+
+.navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
-.transparent-navbar {
-  background-color: transparent !important;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 10; /* Ensure navbar is above other content */
+.navbar-nav {
+  flex-direction: row;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: #fff !important; /* Adjust link color to white */
+.nav-link {
+  color: white !important; 
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-.navbar-toggler-icon {
-  filter: brightness(0) invert(1); /* Make toggler icon visible on dark background */
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.nav-link:hover {
+  color: #ddd !important; 
 }
