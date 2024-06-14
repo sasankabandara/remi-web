@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import Image from "react-bootstrap/Image";
 import "../navbar/navbar.css"
 
@@ -18,7 +18,7 @@ const NavbarComponent = () => {
             <Nav.Link href="#link">Road Map</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <Button variant="outline-primary" className="ml-auto">$REMY</Button>
+        <button className="custom-button">$REMY</button>
       </Container>
     </Navbar>
   );

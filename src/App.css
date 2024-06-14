@@ -5,23 +5,27 @@
 body , html{
   margin: 0;
   padding: 0;
-  position: relative; /* Ensure body is relative for positioning */
+  height: 100%;
+  width: 100%;
+  position: relative;
   overflow-x: hidden; /* Prevent horizontal scrollbars */
   background-color: #202020; /* Fallback background color */
   font-family: 'Kanit', sans-serif;
 }
 
 .overlay {
-  content: "";
   display: block;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 200vh;
   background-color: rgba(28, 28, 28, 0.9); /* Semi-transparent black */
   z-index: -1; /* Ensure overlay is above other content */
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   /* Add grid pattern */
   background-image: 
     repeating-linear-gradient(0deg,  transparent 0.5px, rgba(142, 142, 142, 0.1) 5000px, rgba(142, 142, 142, 0.1) 1000px),
@@ -32,4 +36,15 @@ body , html{
 .App {
   position: relative;
   z-index: 1;
+}
+
+.top-circle{
+  left: 0;
+  top: 0;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 170, 255, 0.2), rgba(0, 0, 255, 0) 70%);
+  z-index: 1;
+  position: absolute;
 }

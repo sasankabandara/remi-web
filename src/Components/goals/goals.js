@@ -1,13 +1,20 @@
 // Goals.js
 import React from 'react';
 import '../goals/goals.css';
+import { Col, Row } from "react-bootstrap";
 
 const Goals = () => {
   return (
-    <div className="goals-container">
+    <div className="container">
       <div className="goals-card">
-        <h1 className="goals-title">GOALS</h1>
-        <p className="goals-text">To Make $REMY One Of The Successful Projects On The Ton Network</p>
+        <Row>
+          <Col>
+            <span className="goals-title">GOALS</span>
+          </Col>
+          <Col>
+          <p className="goals-text">To Make $REMY One Of The Successful<br/>Projects On The Ton Network</p>
+          </Col>
+        </Row>
       </div>
     </div>
   );

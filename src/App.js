@@ -11,7 +11,7 @@ import Links from "../src/Components/links/links.js";
 import Footer from "../src/Components/footer/footer.js";
 
 function App() {
-  
+
   const divStyle = {
     backgroundImage: 'url("/images/back.jpg")',
     backgroundSize: 'cover',
@@ -20,17 +20,17 @@ function App() {
     width: '100%',
   };
   return (
-    <div className="App" style={divStyle}>
-       <div className="overlay"></div>
-      <Navbar/>
+      <div className="App" style={divStyle}>
+        <div className="overlay"></div>
+        <Navbar />
 
-      <Banner/>
-      <Accomplishment/>
-      <Goals/>
-      <Roadmap/>
-      <Links/>
-    
-    </div>
+        <Banner />
+        <Accomplishment />
+        <Goals />
+        <Roadmap />
+        <Links />
+
+      </div>
   );
 }
 

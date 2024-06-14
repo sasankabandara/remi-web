@@ -8,10 +8,10 @@ const Banner = () => {
     <Container>
       <div className="row">
         <div className="col-6">
-          <br/><br/>
+          <br /><br />
           <p className="text-small top-text">Telegrams favorite Jack Russell Terrier!!! Now CTO!!!</p>
           <p className="text-large">WELCOME TO <br /><span className="text-blue">$REMY</span> ON<br />$TON</p>
-          <br/><br/>
+          <br /><br />
           <p className="description">
             🐕 $REMY is not just a community-owned token it’s a symbol<br /> of strength, unity, and community 💪empowerment.<br /><br />
 
@@ -19,13 +19,14 @@ const Banner = () => {
             <br />
             🚇 Join us on our revolutionary journey!!!  $REMY
           </p>
-          <br/><br/><br/>
+          <br /><br />
           <p>NOTHING WILL STOP US.</p>
-          <button>Join Us Now </button>
+          <button className="custom-button" >Join Us Now </button>
         </div>
         <div className="col-6">
-          <p className="top-text-right">Did you Know that telegram needed a Dog???...<br/><span className="start-left">And that Dog is $REMY</span></p>
-          <img src="/images/combined.png" alt="balla" className="dog-image" />
+          <p className="top-text-right">Did you Know that telegram needed a Dog???...<br /><span className="start-left">And that Dog is $REMY</span></p>
+          <div className="circle" />
+          <img src="/images/combined.png" alt="combined" className="dog-image" />
         </div>
       </div>
       <div className="banner-text">
@@ -44,11 +45,11 @@ const Banner = () => {
         </div>
       </div>
       <div className="detail-container">
-      <div className="detail-item">LP BURNED</div>
-      <div className="detail-item">MINT REVOKED</div>
-      <div className="detail-item">TAX 0/0%</div>
-      <div className="detail-item contract">Contract: EQBwJaB-51Efd1CraJskTAkx2NDZHf71ONWUlJI-KIGOzs4b</div>
-    </div>
+        <div className="detail-item">LP BURNED</div>
+        <div className="detail-item">MINT REVOKED</div>
+        <div className="detail-item">TAX 0/0%</div>
+        <div className="detail-item2">Contract: EQBwJaB-51Efd1CraJskTAkx2NDZHf71ONWUlJI-KIGOzs4b</div>
+      </div>
     </Container>
   );
 };

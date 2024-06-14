@@ -1,0 +1,26 @@
+.vertical-divider {
+    border-left: 1px solid #ddd;
+    height: 5em;
+    /* Adjust the height as needed */
+    margin: -15px 20px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.accomplishment-div {
+    background: linear-gradient(to bottom, rgba(28, 28, 28, 0.7), rgb(15, 15, 15) 50%, rgba(28, 28, 28, 0.7));
+    min-height: 50vh;
+    /* Ensure it covers the viewport height */
+    width: 100%;
+    position: relative;
+}
+
+.text-blue {
+    color: #2EA6DA;
+}
+
+p {
+    color: white !important;
+    text-align: left;
+}
