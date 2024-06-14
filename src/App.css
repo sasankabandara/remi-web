@@ -1,38 +1,31 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  position: relative; /* Ensure body is relative for positioning */
+  overflow-x: hidden; /* Prevent horizontal scrollbars */
+  background-color: #202020; /* Fallback background color */
+}
+
+.overlay {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(32, 32, 32, 0.9); /* Semi-transparent black */
+  z-index: -1; /* Ensure overlay is above other content */
+
+  /* Add grid pattern */
+  background-image: 
+    repeating-linear-gradient(0deg,  transparent 0.5px, rgba(255, 255, 255, 0.1) 1000px, rgba(255, 255, 255, 0.1) 2px),
+    repeating-linear-gradient(90deg, transparent 0.5px, rgba(255, 255, 255, 0.1) 1000px, rgba(255, 255, 255, 0.1) 2px);
+  background-size: 80px 80px; /* Adjust grid size */
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  position: relative;
+  z-index: 1;
 }

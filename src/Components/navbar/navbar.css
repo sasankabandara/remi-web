@@ -1,0 +1,19 @@
+.logo {
+  max-width: 100px; /* Adjust logo size */
+}
+
+.transparent-navbar {
+  background-color: transparent !important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10; /* Ensure navbar is above other content */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important; /* Adjust link color to white */
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1); /* Make toggler icon visible on dark background */
+}

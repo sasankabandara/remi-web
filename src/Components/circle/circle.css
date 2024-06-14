@@ -1,0 +1,9 @@
+/* ExampleComponent.css */
+
+.halo {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, #2EA6DA, rgba(46, 166, 218, 0) 70%);
+    border-radius: 50%;
+  }
+  
