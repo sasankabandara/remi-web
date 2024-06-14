@@ -6,6 +6,9 @@ import Banner from "./Components/banner/banner.js";
 import Circle from "./Components/circle/circle.js";
 import Roadmap from "./Components/roadmap/roadmap.js";
 import Accomplishment from "./Components/accomplishment/accomplishment.js";
+import Goals from "../src/Components/goals/goals.js";
+import Links from "../src/Components/links/links.js";
+import Footer from "../src/Components/footer/footer.js";
 
 function App() {
   
@@ -23,7 +26,10 @@ function App() {
 
       <Banner/>
       <Accomplishment/>
+      <Goals/>
       <Roadmap/>
+      <Links/>
+      <Footer/>
     </div>
   );
 }
