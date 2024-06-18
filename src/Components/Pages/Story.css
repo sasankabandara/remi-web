@@ -1,58 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 .story-container {
     background-color: #1c1c1c; /* Assuming the background color from the image */
     color: #ffffff; /* White text color */
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 20px auto; /* Center horizontally */
     font-family: Arial, sans-serif;
-  }
-  
-  .title {
+    border: 1px solid;
+    border-image-source: linear-gradient(103.23deg, rgba(255, 255, 255, 0.045) 1.41%, rgba(255, 255, 255, 0.45) 39.1%, rgba(255, 255, 255, 0.0495) 99.46%);
+}
+
+.title {
     font-size: 2em;
     margin-bottom: 20px;
     font-family: 'Kanit', sans-serif;
-  }
-  
-  .highlight {
+}
+
+.highlight {
     color: #00aaff; /* Light blue text color */
-  }
-  
-  .story-text {
+}
+
+.story-text {
     font-size: 1em;
     margin-bottom: 15px;
-  }
-  
-  .story-button {
+    font-family: "Quicksand", sans-serif;
+}
+
+.story-button {
     background-color: #00aaff;
     border: none;
     border-radius: 5px;
     color: white;
     padding: 10px 20px;
     font-size: 1em;
-  }
-  
-  .story-button:hover {
+}
+
+.story-button:hover {
     background-color: #0088cc;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
     .story-container {
-      padding: 15px;
+        padding: 15px;
     }
-  
+
     .title {
-      font-size: 1.5em;
+        font-size: 1.5em;
     }
-  
+
     .story-text {
-      font-size: 0.9em;
+        font-size: 0.9em;
     }
-  
+
     .story-button {
-      font-size: 0.9em;
-      padding: 8px 15px;
+        font-size: 0.9em;
+        padding: 8px 15px;
     }
-  }
-  
+}

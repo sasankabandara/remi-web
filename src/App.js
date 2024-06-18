@@ -10,6 +10,7 @@ import Goals from "../src/Components/goals/goals.js";
 import Links from "../src/Components/links/links.js";
 import Footer from "../src/Components/footer/footer.js";
 import Story from "./Components/Pages/Story.js";
+import StoryPage from "./Components/Pages/StoryPage.js";
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
     backgroundImage: 'url("/images/back.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    height: '312vh',
+    height: '325vh',
     width: '100%',
   };
   return (
@@ -31,6 +32,7 @@ function App() {
         <Roadmap />
         <Links />
 <Footer/>
+
       </div>
   );
 }

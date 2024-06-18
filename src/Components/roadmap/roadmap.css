@@ -85,7 +85,7 @@
   color: white;
   padding: 20px;
   border-radius: 10px;
-  height: 150px; /* Ensures equal height for all items */
+  height: 180px; /* Ensures equal height for all items */
   display: flex;
   flex-direction: column;
   justify-content: center;
