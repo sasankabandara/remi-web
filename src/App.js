@@ -17,7 +17,7 @@ function App() {
     backgroundImage: 'url("/images/back.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    height: '150vh',
+    height: '312vh',
     width: '100%',
   };
   return (

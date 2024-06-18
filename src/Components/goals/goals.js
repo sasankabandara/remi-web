@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Goals = () => {
   return (
-    <div className="container">
+    <div className="container" >
       <div className="goals-card">
         <Row>
           <Col>

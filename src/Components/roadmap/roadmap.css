@@ -1,8 +1,12 @@
 .roadmap-container {
-  background-color: #202020;
+ margin-top: 100px;
   padding: 20px;
   border-radius: 10px;
   font-family: 'Kanit', sans-serif;
+}
+
+.topic{
+  color: #FFFFFF;;
 }
 
 .roadmap-row-container {

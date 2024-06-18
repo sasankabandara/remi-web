@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 const Roadmap = () => {
     return (
         <Container className="roadmap-container">
+            <h1 className='topic'>ROADMAP</h1>
             {roadmapItems.map((row, rowIndex) => (
                 <div className="roadmap-row-container" key={rowIndex}>
                     <div className="roadmap-row">
