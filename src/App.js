@@ -9,6 +9,7 @@ import Accomplishment from "./Components/accomplishment/accomplishment.js";
 import Goals from "../src/Components/goals/goals.js";
 import Links from "../src/Components/links/links.js";
 import Footer from "../src/Components/footer/footer.js";
+import Story from "./Components/Pages/Story.js";
 
 function App() {
 
